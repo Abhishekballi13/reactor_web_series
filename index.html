@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <div id="root"></div>
+    <!-- <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello Wolrd from Javascript!";
+        const root = document.getElementById("root");
+        root.appendChild(heading)
+    </script> -->
+
+    <!-- //this file is the core file for react  -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- this is the react library which we use for modifying dom   -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- there are two files because first one is core file and second one is  like a bridge
+    that connects two and give access to update and play with dom -->
+ 
+    <!-- <script>
+      const heading = React.createElement("h1",{},"Hello world from react Indisde it")
+    //   this root is the place where all the react code will run
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(heading);
+    </script> -->
+   <script src="./App.js"></script>
+</body>
+</html>
